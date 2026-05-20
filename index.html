@@ -30,10 +30,15 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .entry-card p{font-size:.85rem;color:#666}
 .entry-card.prof{border-color:var(--gold)}
 .entry-card.eleve{border-color:var(--accent)}
-.home-inner{display:flex;flex-direction:column;flex:1;justify-content:center;padding-bottom:60px}
-.home-inner .top-flags{padding-top:0}
-.card-grid{flex:1;align-items:stretch;max-width:700px;margin:0 auto;width:100%}
-.entry-card{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:180px}
+.home-inner{display:flex;flex-direction:column;flex:1;align-items:center;justify-content:center;padding:20px 20px 70px;gap:0}
+.home-inner .top-flags{padding:0 0 4px;font-size:2.6rem;letter-spacing:6px}
+.home-inner .app-title{font-size:2rem}
+.home-inner .subtitle{margin-bottom:28px}
+.card-grid{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;width:100%;max-width:500px;padding:0}
+.entry-card{min-width:0;width:200px;flex:1;max-width:220px;padding:22px 18px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.entry-card .icon{font-size:2.2rem;margin-bottom:8px}
+.entry-card h2{font-size:1.05rem}
+.entry-card p{font-size:.8rem}
 .app-footer{position:fixed;bottom:0;left:0;right:0;background:var(--bg1);border-top:1px solid var(--bg3);display:flex;align-items:center;justify-content:space-between;padding:8px 20px;font-size:.8rem;color:#666;z-index:100}
 .app-footer button{background:none;border:1px solid #aaa;border-radius:8px;padding:4px 12px;cursor:pointer;font-size:.78rem;color:#666}
 .modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:200;align-items:center;justify-content:center}
